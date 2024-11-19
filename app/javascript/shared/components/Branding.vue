@@ -73,8 +73,8 @@ export default {
 
 .branding--image {
   margin-right: $space-smaller;
-  max-width: 0;
-  max-height: 0;
+  max-width: $space-slab;
+  max-height: $space-slab;
   opacity: 0;
 }
 
@@ -83,7 +83,7 @@ export default {
   cursor: pointer;
   display: inline-flex;
   filter: grayscale(1);
-  font-size: 1px;
+  font-size: $font-size-small;
   opacity: 0;
   text-decoration: none;
 
