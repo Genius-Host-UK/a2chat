@@ -75,6 +75,7 @@ export default {
   margin-right: $space-smaller;
   max-width: $space-slab;
   max-height: $space-slab;
+  opacity: 0;
 }
 
 .branding--link {
