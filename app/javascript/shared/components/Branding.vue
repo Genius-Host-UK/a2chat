@@ -83,12 +83,12 @@ export default {
   display: inline-flex;
   filter: grayscale(1);
   font-size: $font-size-small;
-  opacity: 0.9;
+  opacity: 0;
   text-decoration: none;
 
   &:hover {
     filter: grayscale(0);
-    opacity: 1;
+    opacity: 0;
     color: $color-gray;
   }
 }
